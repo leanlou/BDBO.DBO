@@ -1,2 +1,1 @@
-# luck_dog
 
