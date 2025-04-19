@@ -36,7 +36,7 @@ function [Multi_Convergence_curve, Multi_time, bestfit] = bdbo(Z,Popsize, dim, u
         unch_count = 0;
         Lambda = 1.5; 
         means = zeros(6, 1);
-        covariances = zeros(6, 6);
+        covariances = ones(6, 6).*0.1;
         
 
 
